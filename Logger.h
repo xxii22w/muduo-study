@@ -8,7 +8,7 @@
     do \
     { \
         Logger &logger = Logger::instance();    \
-        Logger.setLogLevel(INFO);               \
+        logger.setLogLevel(INFO);               \
         char buf[1024] = {0};                   \
         snprintf(buf,1024,LogmsgFormat, ##__VA_ARGS__ );  \
         logger.log(buf);                        \
@@ -18,7 +18,7 @@
     do \
     { \
         Logger &logger = Logger::instance();    \
-        Logger.setLogLevel(ERROR);               \
+        logger.setLogLevel(ERROR);               \
         char buf[1024] = {0};                   \
         snprintf(buf,1024,LogmsgFormat, ##__VA_ARGS__ );  \
         logger.log(buf);                        \
@@ -28,7 +28,7 @@
     do \
     { \
         Logger &logger = Logger::instance();    \
-        Logger.setLogLevel(FATAL);               \
+        logger.setLogLevel(FATAL);               \
         char buf[1024] = {0};                   \
         snprintf(buf,1024,LogmsgFormat, ##__VA_ARGS__ );  \
         logger.log(buf);                        \
@@ -39,7 +39,7 @@
     do                                          \
     {                                           \
         Logger &logger = Logger::instance();    \
-        Logger.setLogLevel(DEBUG);              \
+        logger.setLogLevel(DEBUG);              \
         char buf[1024] = {0};                   \
         snprintf(buf,1024,LogmsgFormat, ##__VA_ARGS__ );  \
         logger.log(buf);                        \

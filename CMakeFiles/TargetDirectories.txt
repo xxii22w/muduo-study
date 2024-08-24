@@ -1,0 +1,3 @@
+/home/cgh/code folder/muduo-study/CMakeFiles/mymuduo.dir
+/home/cgh/code folder/muduo-study/CMakeFiles/edit_cache.dir
+/home/cgh/code folder/muduo-study/CMakeFiles/rebuild_cache.dir
