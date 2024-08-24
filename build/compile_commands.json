@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/hao/projects/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++20 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/Channel.cc.o -c /home/hao/projects/muduo/Channel.cc",
+  "file": "/home/hao/projects/muduo/Channel.cc"
+},
+{
+  "directory": "/home/hao/projects/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++20 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/EventLoop.cc.o -c /home/hao/projects/muduo/EventLoop.cc",
+  "file": "/home/hao/projects/muduo/EventLoop.cc"
+},
+{
+  "directory": "/home/hao/projects/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++20 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/Logger.cc.o -c /home/hao/projects/muduo/Logger.cc",
+  "file": "/home/hao/projects/muduo/Logger.cc"
+},
+{
+  "directory": "/home/hao/projects/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++20 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/TcpServer.cc.o -c /home/hao/projects/muduo/TcpServer.cc",
+  "file": "/home/hao/projects/muduo/TcpServer.cc"
+},
+{
+  "directory": "/home/hao/projects/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++20 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/Timestamp.cc.o -c /home/hao/projects/muduo/Timestamp.cc",
+  "file": "/home/hao/projects/muduo/Timestamp.cc"
+},
+{
+  "directory": "/home/hao/projects/muduo/build",
+  "command": "/usr/bin/c++ -Dmymuduo_EXPORTS   -g -std=c++20 -fPIC -g -fPIC -o CMakeFiles/mymuduo.dir/inetAddress.cc.o -c /home/hao/projects/muduo/inetAddress.cc",
+  "file": "/home/hao/projects/muduo/inetAddress.cc"
+}
+]
