@@ -34,8 +34,7 @@ void Channel::tie(const std::shared_ptr<void>& obj)
 void Channel::update()
 {
     // 通过channel所属的Eventloop，调用poller的相应方法,注册fd的event事件
-    // add code...
-    // loop_->updatechannel(this)
+    loop_->updateChannel(this);
 
 }
 
@@ -43,7 +42,7 @@ void Channel::update()
 void Channel::remove()
 {
     // add code...
-    // loop_->removeChannel(this);
+    loop_->removeChannel(this);
 }
 
 void Channel::handleEvent(Timestamp  receiveTime)

@@ -18,7 +18,7 @@ public:
     virtual ~Poller() = default;
 
     // 给所有IO复用保留统一的接口
-    virtual Timestamp poll(int timeoutMs,ChannelList* actionChannel) = 0;
+    virtual Timestamp poll(int timeoutMs,ChannelList* activeChannel) = 0;
     virtual void updateChannel(Channel* channel) = 0;
     virtual void removeChannel(Channel* channel) = 0;
     
